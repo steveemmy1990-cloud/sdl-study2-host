@@ -1,0 +1,46 @@
+name: Deploy builds to GitHub Pages
+on:
+  push:
+    branches: [main]
+    paths: [releases.txt, robots.txt, .github/workflows/deploy.yml]
+  workflow_dispatch:
+permissions:
+  contents: read
+  pages: write
+  id-token: write
+concurrency:
+  group: pages
+  cancel-in-progress: false
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Assemble site from release assets
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          set -euo pipefail
+          mkdir -p site
+          cp robots.txt site/
+          printf '<!doctype html><meta charset="utf-8"><meta name="robots" content="noindex"><title>Not found</title><p>Nothing here.</p>\n' > site/index.html
+          grep -v '^\s*#' releases.txt | sed '/^\s*$/d' | while read -r tag; do
+            mkdir -p "dl/$tag" "site/$tag"
+            gh release download "$tag" --dir "dl/$tag" --pattern 'webgl.zip' --pattern 'webgl.zip.sha256'
+            (cd "dl/$tag" && sha256sum -c webgl.zip.sha256)
+            unzip -q "dl/$tag/webgl.zip" -d "site/$tag"
+            echo "published $tag: $(du -sh "site/$tag" | cut -f1)"
+          done
+          du -sh site
+      - uses: actions/upload-pages-artifact@v3
+        with:
+          path: site
+  deploy:
+    needs: build
+    runs-on: ubuntu-latest
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - id: deployment
+        uses: actions/deploy-pages@v4
