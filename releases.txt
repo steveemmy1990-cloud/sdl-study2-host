@@ -1,7 +1,8 @@
 # One release tag per line. Each listed build is published at /<tag>/ (first line = current).
 # Keep the previous build listed for rollback. Total published size must stay under 1 GB (~5 builds).
 01e05fb
+# 04fc086: avatar presentation TEST build (19 Oct 2026); staff only, NOT a survey return target.
+04fc086
 5026540
 ccfa967
 da7a2d9
-eedd5fc
