@@ -1,7 +1,7 @@
 # One release tag per line. Each listed build is published at /<tag>/ (first line = current).
 # Keep the previous build listed for rollback. Total published size must stay under 1 GB (~5 builds).
+01e05fb
 5026540
 ccfa967
 da7a2d9
 eedd5fc
-ead2f87
