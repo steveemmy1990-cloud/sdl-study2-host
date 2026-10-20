@@ -1,9 +1,11 @@
 # One release tag per line. Each listed build is published at /<tag>/ (first line = current).
 # Keep the previous build listed for rollback. Total published size must stay under 1 GB (~5 builds).
 01e05fb
-# b6e1c7b: combined build (accepted avatar + tutor .24 on the server), 19 Oct 2026; staff TEST candidate; the TEST survey returns here since 19 Oct ~19:42 UTC.
+# 3e229ee: b6e1c7b + the optional pre-learning MAI-19 module (study2-supporting-measures-v1), 20 Oct 2026; staff TEST candidate; the TEST survey returns here once republished.
+3e229ee
+# b6e1c7b: combined build (accepted avatar + tutor .24 on the server), 19 Oct 2026; staff TEST candidate; previous TEST survey return target (rollback).
 b6e1c7b
 # 04fc086: avatar presentation TEST build (19 Oct 2026); accepted; staff only, NOT a survey return target.
 04fc086
 5026540
-ccfa967
+# ccfa967 withdrawn from Pages 20 Oct 2026 (least recently used; release asset kept and verified, 176,841,180 bytes).
