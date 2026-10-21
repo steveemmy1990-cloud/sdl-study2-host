@@ -1,14 +1,15 @@
 # One release tag per line. Each listed build is published at /<tag>/ (first line = current).
 # Keep the previous build listed for rollback. Total published size must stay under 1 GB (~5 builds).
 01e05fb
-# f7b60e7: 76dcaab + file 41 questionnaire messaging (supporting-measures presentation v2: no skip gates, shared study notice, neutral continue wording, Plate label), 21 Oct 2026; staff TEST candidate; the TEST survey returns here.
+# f92a2c1: f7b60e7 + finalization (supporting-measures presentation v3: no leave-unanswered wording in the MAI instruction or baseline; attach/detach construction events; tab-visibility transitions), 21 Oct 2026; staff TEST candidate; the TEST survey returns here.
+f92a2c1
+# f7b60e7: 76dcaab + file 41 questionnaire messaging (presentation v2), 21 Oct 2026; previous TEST survey return target (rollback).
 f7b60e7
-# 76dcaab: b6e1c7b + the optional pre-learning MAI-19 module (study2-supporting-measures-v1), 20 Oct 2026; previous TEST survey return target (rollback).
+# 76dcaab: b6e1c7b + the optional pre-learning MAI-19 module (study2-supporting-measures-v1), 20 Oct 2026.
 76dcaab
 # b6e1c7b: combined build (accepted avatar + tutor .24 on the server), 19 Oct 2026; staff TEST candidate.
 b6e1c7b
-# 04fc086: avatar presentation TEST build (19 Oct 2026); accepted; staff only, NOT a survey return target.
-04fc086
+# 04fc086 withdrawn from Pages 21 Oct 2026 (avatar presentation TEST build, accepted and merged into b6e1c7b; least recently used; release asset kept).
 # 5026540 withdrawn from Pages 21 Oct 2026 (least recently used; release asset kept, 176,906,486 bytes).
 # 3e229ee withdrawn from Pages 20 Oct 2026 (superseded by 76dcaab: concurrent pre-MAI draft saves; release asset kept).
 # ccfa967 withdrawn from Pages 20 Oct 2026 (least recently used; release asset kept and verified, 176,841,180 bytes).
