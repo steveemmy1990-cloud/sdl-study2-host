@@ -1,7 +1,7 @@
 # One release tag per line. Each listed build is published at /<tag>/ (first line = current).
 # Keep the previous build listed for rollback. Total published size must stay under 1 GB (~5 builds).
-# 7d8c3c1: f92a2c1 + completion review (unanswered-item review before baseline / pre-MAI / task-explanation submission; attempt prompt on Continue without a checked arrangement), 26 Oct 2026; staff TEST candidate; the TEST survey returns here. Not for participants.
-7d8c3c1
+# d908570: 7d8c3c1 + the task question panel hidden behind the no-answer dialog, 26 Oct 2026; staff TEST candidate (completion review); the TEST survey returns here. Not for participants.
+d908570
 # f92a2c1: f7b60e7 + finalization (supporting-measures presentation v3: no leave-unanswered wording in the MAI instruction or baseline; attach/detach construction events; tab-visibility transitions), 21 Oct 2026; previous TEST survey return target (rollback).
 f92a2c1
 # f7b60e7: 76dcaab + file 41 questionnaire messaging (presentation v2), 21 Oct 2026; previous TEST survey return target (rollback).
@@ -15,3 +15,4 @@ b6e1c7b
 # 3e229ee withdrawn from Pages 20 Oct 2026 (superseded by 76dcaab: concurrent pre-MAI draft saves; release asset kept).
 # ccfa967 withdrawn from Pages 20 Oct 2026 (least recently used; release asset kept and verified, 176,841,180 bytes).
 # 01e05fb withdrawn from Pages 26 Oct 2026 (least recently used; release asset kept).
+# 7d8c3c1 withdrawn from Pages 26 Oct 2026 (superseded by d908570: dialog overlap in the task question; release asset kept).
