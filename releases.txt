@@ -1,6 +1,8 @@
 # One release tag per line. Each listed build is published at /<tag>/ (first line = current).
 # Keep the previous build listed for rollback. Total published size must stay under 1 GB (~5 builds).
-# a4540e5: 03f3418 + structured practice (structured-practice-v1-20261027: corrective attempt after a missed target or mismatched prediction; remaining task of an arrangement cannot be left by Continue/Skip/blank explanation; Pause / help routes), 27 Oct 2026; release candidate. Not yet for participants.
+# 5929f2e: a4540e5 + presentation fixes from its hosted check (Readings panel clear of the practice status, controls hidden while paused, spaced report buttons, result line names the corrective attempt), 27 Oct 2026; release candidate. Not yet for participants.
+5929f2e
+# a4540e5: 03f3418 + structured practice (structured-practice-v1-20261027: corrective attempt after a missed target or mismatched prediction; remaining task of an arrangement cannot be left by Continue/Skip/blank explanation; Pause / help routes), 27 Oct 2026; superseded the same day by 5929f2e (presentation fixes).
 a4540e5
 # 03f3418: d908570 + required minimum practice (series/parallel requirement on each start screen, Skip one task per kind, reminders), 26 Oct 2026; previous candidate (superseded by a4540e5).
 03f3418
@@ -8,8 +10,6 @@ a4540e5
 d908570
 # f92a2c1: f7b60e7 + finalization (supporting-measures presentation v3: no leave-unanswered wording in the MAI instruction or baseline; attach/detach construction events; tab-visibility transitions), 21 Oct 2026; previous TEST survey return target (rollback).
 f92a2c1
-# f7b60e7: 76dcaab + file 41 questionnaire messaging (presentation v2), 21 Oct 2026; previous TEST survey return target (rollback).
-f7b60e7
 # 04fc086 withdrawn from Pages 21 Oct 2026 (avatar presentation TEST build, accepted and merged into b6e1c7b; least recently used; release asset kept).
 # 5026540 withdrawn from Pages 21 Oct 2026 (least recently used; release asset kept, 176,906,486 bytes).
 # 3e229ee withdrawn from Pages 20 Oct 2026 (superseded by 76dcaab: concurrent pre-MAI draft saves; release asset kept).
@@ -18,3 +18,4 @@ f7b60e7
 # 7d8c3c1 withdrawn from Pages 26 Oct 2026 (superseded by d908570: dialog overlap in the task question; release asset kept).
 # b6e1c7b withdrawn from Pages 26 Oct 2026 (least recently used; release asset kept).
 # 76dcaab withdrawn from Pages 27 Oct 2026 (least recently used; release asset kept).
+# f7b60e7 withdrawn from Pages 27 Oct 2026 (least recently used; release asset kept).
