@@ -1,9 +1,9 @@
 # One release tag per line. Each listed build is published at /<tag>/ (first line = current).
 # Keep the previous build listed for rollback. Total published size must stay under 1 GB (~5 builds).
-# 5929f2e: a4540e5 + presentation fixes from its hosted check (Readings panel clear of the practice status, controls hidden while paused, spaced report buttons, result line names the corrective attempt), 27 Oct 2026; release candidate. Not yet for participants.
+# 2e7ebe9: 5929f2e + the result line kept to one HUD line ("Change the springs or prediction, then press [C]."), 27 Oct 2026; release candidate (structured practice). Not yet for participants.
+2e7ebe9
+# 5929f2e: a4540e5 + presentation fixes from its hosted check (Readings panel clear of the practice status, controls hidden while paused, spaced report buttons, result line names the corrective attempt), 27 Oct 2026; superseded the same day by 2e7ebe9 (result line wrapped).
 5929f2e
-# a4540e5: 03f3418 + structured practice (structured-practice-v1-20261027: corrective attempt after a missed target or mismatched prediction; remaining task of an arrangement cannot be left by Continue/Skip/blank explanation; Pause / help routes), 27 Oct 2026; superseded the same day by 5929f2e (presentation fixes).
-a4540e5
 # 03f3418: d908570 + required minimum practice (series/parallel requirement on each start screen, Skip one task per kind, reminders), 26 Oct 2026; previous candidate (superseded by a4540e5).
 03f3418
 # d908570: 7d8c3c1 + the task question panel hidden behind the no-answer dialog, 26 Oct 2026; previous candidate (rollback).
@@ -19,3 +19,4 @@ f92a2c1
 # b6e1c7b withdrawn from Pages 26 Oct 2026 (least recently used; release asset kept).
 # 76dcaab withdrawn from Pages 27 Oct 2026 (least recently used; release asset kept).
 # f7b60e7 withdrawn from Pages 27 Oct 2026 (least recently used; release asset kept).
+# a4540e5 withdrawn from Pages 27 Oct 2026 (superseded by 5929f2e and 2e7ebe9; release asset kept).
